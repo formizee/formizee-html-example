@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Formizee HTML</title>
+    <link rel="stylesheet" href="./styles.css">
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+    <meta name="description" content="A little example of a HTML project with Formizee.">
+	</head>
+	<body>
+    <header>
+      <h1>Formizee.</h1>
+      <span>+</span>
+      <figure>
+        <img src="/assets/html.svg"
+          alt="HTML logo"
+          height="38"
+          width="38"
+        />
+        <span>HTML</span>
+      </figure>
+    </header>
+    <form method="post" action="https://api.formizee.com/v1/f/enp_123456">
+      <label for="name">
+        Name
+        <input id="name" autoComplete="name" name="name" />
+      </label>
+      <label for="email">
+        Email
+        <input id="email" autoComplete="email" name="email" />
+      </label>
+      <button type="submit">Submit</button>
+    </form>
+    <footer>
+      <div>
+        <a
+          href="https://docs.formizee.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            aria-hidden
+            src="/assets/file.svg"
+            alt="File icon"
+            width="16"
+            height="16"
+          />
+          Learn
+        </a>
+        <a
+          href="https://docs.formizee.com/docs/quickstart"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            aria-hidden
+            src="/assets/window.svg"
+            alt="Window icon"
+            width="16"
+            height="16"
+          />
+          Examples
+        </a>
+        <a
+          href="https://formizee.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            aria-hidden
+            src="/assets/globe.svg"
+            alt="Globe icon"
+            width="16"
+            height="16"
+          />
+          formizee.com
+        </a>
+      </div>
+    </footer>
+	</body>
+</html>
